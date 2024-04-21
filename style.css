@@ -1,0 +1,75 @@
+* {
+    padding: .75rem;
+    font-size: 1rem;
+    background-color: lightblue;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 2.25rem;
+    font-weight: 900;
+    padding: .25rem;
+    margin: 2rem 0rem
+}
+
+input {
+    background-color: white;
+}
+
+button {
+    background-color: lightgrey;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.movieList {
+    display: none;
+    font-family: monospace;
+    font-size: .75rem ;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: auto;
+    background-color: rgb(69, 150, 241);
+    border: 5px rgb(4, 74, 155) solid;
+}
+
+ul{
+    padding-left: 2.25rem;
+    background-color: rgb(69, 150, 241);
+}
+
+li {
+    font-size: 1.25rem;
+    background-color: rgb(69, 150, 241);
+}
+
+.alert {
+    background-color: rgb(245, 109, 109);
+    color: white;
+    padding: .5rem;
+    padding-right: 1.5rem;
+    border: 0.25rem black;
+    border-radius: .75rem;
+    box-shadow: 0 0 10px 5px grey;
+    position: fixed;
+    top: 2rem;
+}
+
+.closebtn {
+    background-color: rgb(245, 109, 109);
+    font-weight: 900;
+    margin-left: .25rem;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    transition: 0.3s;
+    color: white;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    color: black;
+}

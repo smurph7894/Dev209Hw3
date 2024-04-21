@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"> 
+        <title>HW3 - Movies</title>
+    </head>
+    <body id="body"> 
+        <div id="form">
+            <div id="popUp"></div>
+            <br><br>
+            <label> Movie's Title:
+                <input type="text" id="iTitle" />
+            </label>
+            <br><br>
+            <label> Movie's Rating:
+                <input type="number" min="1" max="5" id="iRating" />
+            </label>
+            <br><br>
+            <label> Movie's Release Year:
+                <input type="number" min="1878" max="2035" id="iYear" />
+            </label>
+            <br><br>
+            <button type="button" id="movieSubmitButton">Add Movie</button>
+            <br><br>
+            <button id="displayButton" type="button" onclick="displayMovies()">Show Movies</button>
+        </div>
+        <div id="movieList" class="movieList">
+            <ul id="list"></ul>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
